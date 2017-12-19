@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE theme PUBLIC "wa-app-theme" "http://www.webasyst.com/wa-content/xml/wa-app-theme.dtd">
+<theme id="servicessite" system="0" vendor="934303" author="BodySite" app="site" version="1.3" edition="105">
+  <name locale="en_US">ServicesSite</name>
+  <name locale="ru_RU">Сайт услуг</name>
+  <description locale="en_US">Adaptive design theme for services sites</description>
+  <description locale="ru_RU">Адаптивная тема для сайта услуг</description>
+  <files>
+    <file path="index.html" custom="0" modified="1">
+      <description locale="en_US">Core layout of ServicesSite theme family</description>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="head.html" custom="0">
+      <description locale="en_US">Site app's &lt;head&gt; instructions</description>
+      <description locale="ru_RU">Блок &lt;head&gt; приложения «Сайт»</description>
+    </file>
+    <file path="main.html" custom="0">
+      <description locale="en_US">Main layout for Site app content</description>
+      <description locale="ru_RU">Основной вывод приложения «Сайт»</description>
+    </file>
+    <file path="page.html" custom="0">
+      <description locale="en_US">Static page content and navigation</description>
+      <description locale="ru_RU">Содержимое открытой страницы и навигация по страницам</description>
+    </file>
+    <file path="login.html" custom="0">
+      <description locale="en_US">Login page</description>
+      <description locale="ru_RU">Страница входа для пользователей</description>
+    </file>
+    <file path="signup.html" custom="0">
+      <description locale="en_US">Sign up page</description>
+      <description locale="ru_RU">Страница регистрации пользователей</description>
+    </file>
+    <file path="forgotpassword.html" custom="0">
+      <description locale="en_US">Forgot password page</description>
+      <description locale="ru_RU">Страница сброса пароля</description>
+    </file>
+    <file path="my.profile.html">
+      <description locale="en_US">My profile: contact info editing form</description>
+      <description locale="ru_RU">Личный кабинет: редактирование контактной информации</description>
+    </file>
+    <file path="my.nav.html">
+      <description locale="en_US">My profile navigation</description>
+      <description locale="ru_RU">Навигационное меню внутри личного кабинета</description>
+    </file>
+    <file path="error.html" custom="0">
+      <description locale="en_US">404 and other errors</description>
+      <description locale="ru_RU">404 и другие ошибки</description>
+    </file>
+    <file path="news.html" custom="0">
+      <description locale="en_US"/>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="promo.html" custom="0" modified="1">
+      <description locale="en_US"/>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="submenu.html" custom="0">
+      <description locale="en_US"/>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="top.html" custom="0">
+      <description locale="en_US"/>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="styles.css" custom="0" modified="1">
+      <description locale="en_US"/>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="adaptive.css" custom="0">
+      <description locale="en_US"/>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="additional.css" custom="0">
+      <description locale="en_US"/>
+      <description locale="ru_RU">Дополнительный файл стилей, который будет иметь высший приоритет относительно других</description>
+    </file>
+    <file path="handler.js" custom="0">
+      <description locale="en_US"/>
+      <description locale="ru_RU">JS-файл</description>
+    </file>
+    <file path="adaptive.js" custom="0">
+      <description locale="en_US"/>
+      <description locale="ru_RU"/>
+    </file>
+    <file path="styletab.css" custom="1" modified="1">
+      <description locale="ru_RU"/>
+    </file>
+  </files>
+  <about locale="en_US">
+&lt;p&gt;&lt;b&gt;ServicesSite&lt;/b&gt;&lt;/p&gt;
+</about>
+  <about locale="ru_RU">
+&lt;p&gt;&lt;b&gt;«Cайт услуг»&lt;/b&gt; — адаптивная тема для приложений «Сайт», «Блог», «Фото», «Поддержка». Корректно
+отображается во всех современных браузерах, в т.ч. на планшетах и мобильных
+устройствах iOS и Android. Минимальная ширина экрана составляет 240 px. &lt;br /&gt; &lt;a href="https://www.webasyst.ru/store/theme/servicessite/nastroyka-temy/"&gt;Инструкция по настройке&lt;/a&gt;&lt;/p&gt; Поддержка &lt;a href="mailto:support@bodysite.ru"&gt;support@bodysite.ru&lt;/a&gt;
+</about>
+  <settings>
+    <setting var="theme_color" control_type="select">
+      <value>red</value>
+      <name locale="ru_RU">Основной цвет шаблона</name>
+      <name locale="en_US">Theme_color</name>
+      <options>
+        <option value="blue">
+          <name locale="ru_RU">Синий</name>
+          <name locale="en_US">Blue</name>
+        </option>
+        <option value="red">
+          <name locale="ru_RU">Красный</name>
+          <name locale="en_US">Red</name>
+        </option>
+        <option value="green">
+          <name locale="ru_RU">Зелёный</name>
+          <name locale="en_US">Green</name>
+        </option>
+        <option value="orange">
+          <name locale="ru_RU">Оранжевый</name>
+          <name locale="en_US">Orange</name>
+        </option>
+        <option value="beige">
+          <name locale="ru_RU">Бежевый</name>
+          <name locale="en_US">Beige</name>
+        </option>
+        <option value="black">
+          <name locale="ru_RU">Чёрный</name>
+          <name locale="en_US">Black</name>
+        </option>
+        <option value="brown">
+          <name locale="ru_RU">Коричневый</name>
+          <name locale="en_US">Brown</name>
+        </option>
+        <option value="purple">
+          <name locale="ru_RU">Пурпурный</name>
+          <name locale="en_US">Purple</name>
+        </option>
+        <option value="yellow">
+          <name locale="ru_RU">Жёлтый</name>
+          <name locale="en_US">Yellow</name>
+        </option>
+        <option value="dark_blue">
+          <name locale="ru_RU">Тёмно-синий</name>
+          <name locale="en_US">Dark-blue</name>
+        </option>
+      </options>
+    </setting>
+    <setting var="pagination" control_type="select">
+      <value>lazyloading</value>
+      <name locale="en_US">Long lists</name>
+      <name locale="ru_RU">Длинные списки
+      
+			&lt;div style="padding-bottom: 10px; color:#777;width:550px; font-style:italic; margin-top:20px;"&gt;
+			Создание и редактирование информационных страниц в разделе &lt;b&gt;Сайт -&gt; Страницы&lt;/b&gt;
+			&lt;/div&gt;
+      &lt;div style="padding-bottom: 10px; color:#777;width:550px; font-style:italic;"&gt;
+			Горизонтальное меню сайта настраивается в разделе &lt;b&gt;Сайт -&gt; Настройки&lt;/b&gt;
+			&lt;/div&gt;
+      &lt;div style="padding-bottom: 10px; padding-top: 15px; color:#1c5a71; width:530px; font-weight:bold; font-size:20px;margin-top:20px;"&gt;
+			Информация о компании
+			&lt;/div&gt;
+    </name>
+      <options>
+        <option value="lazyloading">
+          <name locale="ru_RU">Автоматическая подгрузка при скролле (lazy loading)</name>
+          <name locale="en_US">Auto load on scroll (lazy loading)</name>
+        </option>
+        <option value="paging">
+          <name locale="ru_RU">Постраничная навигация (1 2 3 4 ...)</name>
+          <name locale="en_US">Paginated lists (1 2 3 4 ...)</name>
+        </option>
+      </options>
+    </setting>
+    <setting var="sitename" control_type="text">
+      <value>ПЕРМЬ | MEDIA - реклама на мониторах города</value>
+      <name locale="en_US">Company name</name>
+      <name locale="ru_RU">Название компании</name>
+    </setting>
+    <setting var="logo" control_type="image">
+      <value>img/logo.png</value>
+      <filename>img/logo.*</filename>
+      <name locale="en_US">Logo (recommended size 195 х 42 px)</name>
+      <name locale="ru_RU">Логотип (рекомендуемый размер 195 х 42 px)</name>
+    </setting>
+    <setting var="slogan" control_type="text">
+      <value/>
+      <name locale="en_US">Slogan</name>
+      <name locale="ru_RU">Слоган</name>
+    </setting>
+    <setting var="address_city" control_type="text">
+      <value>г.Пермь</value>
+      <name locale="en_US">City</name>
+      <name locale="ru_RU">Город</name>
+    </setting>
+    <setting var="address_street" control_type="text">
+      <value>ул.Магистральная</value>
+      <name locale="en_US">Street</name>
+      <name locale="ru_RU">Улица</name>
+    </setting>
+    <setting var="address_building" control_type="text">
+      <value>89</value>
+      <name locale="en_US">Building</name>
+      <name locale="ru_RU">Дом</name>
+    </setting>
+    <setting var="address_office" control_type="text">
+      <value>2 этаж</value>
+      <name locale="en_US">Office</name>
+      <name locale="ru_RU">Офис</name>
+    </setting>
+    <setting var="email" control_type="text">
+      <value>perm.media@bk.ru</value>
+      <name locale="en_US">Email</name>
+      <name locale="ru_RU">Email</name>
+    </setting>
+    <setting var="phone_code" control_type="text">
+      <value>342</value>
+      <name locale="en_US">Phone code</name>
+      <name locale="ru_RU">Код города</name>
+    </setting>
+    <setting var="phone" control_type="text">
+      <value>211-03-15</value>
+      <name locale="en_US">Phone</name>
+      <name locale="ru_RU">Телефон</name>
+    </setting>
+    <setting var="workTime" control_type="text">
+      <value>Skype - Пермь Медиа Агентство</value>
+      <name locale="en_US">Work time</name>
+      <name locale="ru_RU">Рабочее время
+      
+			&lt;div style="padding-bottom: 10px; padding-top: 15px; color:#1c5a71; width:530px; font-weight:bold; font-size:20px; margin-top:20px;"&gt;
+			Настройки слайдера
+			&lt;/div&gt;</name>
+    </setting>
+    <setting var="slide1" control_type="image">
+      <value>img/slide1.png</value>
+      <filename>img/slide1.*</filename>
+      <name locale="en_US">The slide #1 (recommended image size: height - 460 px, width - more than 1000 px)</name>
+      <name locale="ru_RU">Слайд №1 (рекомендуемый размер изображения: высота - 460 px, ширина - не менее 1000 px)</name>
+    </setting>
+    <setting var="slide1_desc" control_type="text">
+      <value>Видеореклама внутри транспорта</value>
+      <name locale="en_US">The 1st slide's description</name>
+      <name locale="ru_RU">Текст для слайда №1</name>
+    </setting>
+    <setting var="slide1_link" control_type="text">
+      <value/>
+      <name locale="en_US">The link for 1st slide</name>
+      <name locale="ru_RU">Адрес ссылки "Подробнее" для слайда №1</name>
+    </setting>
+    <setting var="slide2" control_type="image">
+      <value>img/slide2.jpg</value>
+      <filename>img/slide2.*</filename>
+      <name locale="en_US">The slide #2 (recommended image size: height - 460 px, width - more than 1000 px)</name>
+      <name locale="ru_RU">Слайд №2 (рекомендуемый размер изображения: высота - 460 px, ширина - не менее 1000 px)</name>
+    </setting>
+    <setting var="slide2_desc" control_type="text">
+      <value>Текст для слайда №2</value>
+      <name locale="en_US">The 2nd slide's description</name>
+      <name locale="ru_RU">Текст для слайда №2</name>
+    </setting>
+    <setting var="slide2_link" control_type="text">
+      <value>Адрес ссылки</value>
+      <name locale="en_US">The link for 2nd slide</name>
+      <name locale="ru_RU">Адрес ссылки "Подробнее" для слайда №2</name>
+    </setting>
+    <setting var="slide3" control_type="image">
+      <value>img/slide3.jpg</value>
+      <filename>img/slide3.*</filename>
+      <name locale="en_US">The slide #3 (recommended image size: height - 460 px, width - more than 1000 px)</name>
+      <name locale="ru_RU">Слайд №3 (рекомендуемый размер изображения: высота - 460 px, ширина - не менее 1000 px)</name>
+    </setting>
+    <setting var="slide3_desc" control_type="text">
+      <value/>
+      <name locale="en_US">The 3rd slide's description</name>
+      <name locale="ru_RU">Текст для слайда №3</name>
+    </setting>
+    <setting var="slide3_link" control_type="text">
+      <value/>
+      <name locale="en_US">The link for 3rd slide</name>
+      <name locale="ru_RU">Адрес ссылки "Подробнее" для слайда №3</name>
+    </setting>
+    <setting var="slide4" control_type="image">
+      <value/>
+      <filename>img/slide4.*</filename>
+      <name locale="en_US">The slide #4 (recommended image size: height - 460 px, width - more than 1000 px)</name>
+      <name locale="ru_RU">Слайд №4 (рекомендуемый размер изображения: высота - 460 px, ширина - не менее 1000 px)</name>
+    </setting>
+    <setting var="slide4_desc" control_type="text">
+      <value/>
+      <name locale="en_US">The 4th slide's description</name>
+      <name locale="ru_RU">Текст для слайда №4</name>
+    </setting>
+    <setting var="slide4_link" control_type="text">
+      <value/>
+      <name locale="en_US">The link for 4th slide</name>
+      <name locale="ru_RU">Адрес ссылки "Подробнее" для слайда №4</name>
+    </setting>
+    <setting var="slide5" control_type="image">
+      <value>img/slide5.jpg</value>
+      <filename>img/slide5.*</filename>
+      <name locale="en_US">The slide #5 (recommended image size: height - 460 px, width - more than 1000 px)</name>
+      <name locale="ru_RU">Слайд №5 (рекомендуемый размер изображения: высота - 460 px, ширина - не менее 1000 px)</name>
+    </setting>
+    <setting var="slide5_desc" control_type="text">
+      <value/>
+      <name locale="en_US">The 5th slide's description</name>
+      <name locale="ru_RU">Текст для слайда №5</name>
+    </setting>
+    <setting var="slide5_link" control_type="text">
+      <value/>
+      <name locale="en_US">The link for 5th slide</name>
+      <name locale="ru_RU">
+        Адрес ссылки "Подробнее" для слайда №5
+        
+			&lt;div style="padding-bottom: 10px; padding-top: 15px; color:#1c5a71; width:530px; font-weight:bold; font-size:20px; margin-top:20px;"&gt;
+			Настройки промо-блока
+			&lt;/div&gt;
+      </name>
+    </setting>
+    <setting var="promo_img1" control_type="image">
+      <value>img/promo_img1.jpg</value>
+      <filename>img/promo_img1.*</filename>
+      <name locale="en_US">The image for promo-block #1  (recommended size 310 х 107 px)</name>
+      <name locale="ru_RU">Картинка к блоку №1 (рекомендуемый размер 310 х 107 px)</name>
+    </setting>
+    <setting var="promo_text1" control_type="text">
+      <value>Видеореклама внутри транспорта</value>
+      <name locale="en_US">The text for promo-block #1</name>
+      <name locale="ru_RU">Текст для блока №1</name>
+    </setting>
+    <setting var="promo_btn1" control_type="text">
+      <value>Текст кнопки блока №1</value>
+      <name locale="en_US">The text on a button for promo-block #1</name>
+      <name locale="ru_RU">Текст кнопки блока №1</name>
+    </setting>
+    <setting var="promo_link1" control_type="text">
+      <value>Ссылка кнопки</value>
+      <name locale="en_US">The button's link</name>
+      <name locale="ru_RU">Ссылка кнопки</name>
+    </setting>
+    <setting var="promo_img2" control_type="image">
+      <value>img/promo_img2.png</value>
+      <filename>img/promo_img2.*</filename>
+      <name locale="en_US">The image for promo-block #2 (recommended size 310 х 107 px)</name>
+      <name locale="ru_RU">Картинка к блоку №2 (рекомендуемый размер 310 х 107 px)</name>
+    </setting>
+    <setting var="promo_text2" control_type="text">
+      <value/>
+      <name locale="en_US">The text for promo-block #2</name>
+      <name locale="ru_RU">Текст для блока №2</name>
+    </setting>
+    <setting var="promo_btn2" control_type="text">
+      <value/>
+      <name locale="en_US">The text on a button for promo-block #2</name>
+      <name locale="ru_RU">Текст кнопки блока №2</name>
+    </setting>
+    <setting var="promo_link2" control_type="text">
+      <value/>
+      <name locale="en_US">The button's link</name>
+      <name locale="ru_RU">Ссылка кнопки блока №2</name>
+    </setting>
+    <setting var="promo_img3" control_type="image">
+      <value>img/promo_img3.png</value>
+      <filename>img/promo_img3.*</filename>
+      <name locale="en_US">The image for promo-block #3 (recommended size 310 х 107 px)</name>
+      <name locale="ru_RU">Картинка к блоку №3  (рекомендуемый размер 310 х 107 px)</name>
+    </setting>
+    <setting var="promo_text3" control_type="text">
+      <value>Реклама и продвижение</value>
+      <name locale="en_US">The text for promo-block #3</name>
+      <name locale="ru_RU">Текст для блока №3</name>
+    </setting>
+    <setting var="promo_btn3" control_type="text">
+      <value>Далее</value>
+      <name locale="en_US">The text on a button for promo-block #3</name>
+      <name locale="ru_RU">Текст кнопки блока №3</name>
+    </setting>
+    <setting var="promo_link3" control_type="text">
+      <value>/uznovanie/reklama-i-prodvizhenie/</value>
+      <name locale="en_US">The button's link</name>
+      <name locale="ru_RU">Ссылка кнопки блока №3
+      
+			&lt;div style="padding-bottom: 10px; padding-top: 15px; color:#1c5a71; width:530px; font-weight:bold; font-size:20px; margin-top:20px;"&gt;
+			Настройки блока "Новости компании"
+			&lt;/div&gt;</name>
+    </setting>
+    <setting var="numberOfLatestNews" control_type="text">
+      <value/>
+      <name locale="en_US">The number of latest news</name>
+      <name locale="ru_RU">Количество последних новостей к показу</name>
+    </setting>
+    <setting var="newsId" control_type="text">
+      <value/>
+      <name locale="en_US">The news categorie ID</name>
+      <name locale="ru_RU">ID категории блога для вывода в качестве новостей
+      
+			&lt;div style="padding-bottom: 10px; padding-top: 15px; color:#1c5a71; width:530px; font-weight:bold; font-size:20px; margin-top:20px;"&gt;
+			Настройки "подвала" сайта
+			&lt;/div&gt;</name>
+    </setting>
+    <setting var="footer_text" control_type="text">
+      <value>Пермь Медиа - тел. 211-03-15 или 2-936-536 эл.почта: perm.media@bk.ru </value>
+      <name locale="en_US">The text for a footer</name>
+      <name locale="ru_RU">Текст в нижней части сайта</name>
+    </setting>
+    <setting var="footer_year" control_type="text">
+      <value>© 2000 - 2017</value>
+      <name locale="en_US">The year when the company was founded</name>
+      <name locale="ru_RU">Год основания компании
+      
+			&lt;div style="padding-bottom: 10px; padding-top: 15px; color:#1c5a71; width:530px; font-weight:bold; font-size:20px; margin-top:20px;"&gt;
+			Настройки социальных кнопок
+			&lt;/div&gt;</name>
+    </setting>
+    <setting var="facebook" control_type="text">
+      <value/>
+      <name locale="en_US">Facebook page URL</name>
+      <name locale="ru_RU">Адрес страницы в «Фейсбуке»</name>
+    </setting>
+    <setting var="twitter" control_type="text">
+      <value/>
+      <name locale="en_US">Twitter username</name>
+      <name locale="ru_RU">Имя пользователя в «Твиттере»</name>
+      <description locale="en_US">Example: webasyst</description>
+      <description locale="ru_RU">Например: webasyst_ru</description>
+    </setting>
+    <setting var="vk" control_type="text">
+      <value>https://vk.com/perm_media59</value>
+      <name locale="en_US">VK.com page URL</name>
+      <name locale="ru_RU">Адрес страницы или группы во «ВКонтакте»</name>
+    </setting>
+    <setting var="instagram" control_type="text">
+      <value/>
+      <name locale="en_US">Instagram username</name>
+      <name locale="ru_RU">Имя пользователя в «Инстаграме»</name>
+      <description locale="en_US">Example: webasyst</description>
+      <description locale="ru_RU">Например: webasyst_ru</description>
+    </setting>
+    <setting var="youtube" control_type="text">
+      <value/>
+      <name locale="en_US">Youtube channel URL</name>
+      <name locale="ru_RU">Адрес канала YouTube</name>
+    </setting>
+    <setting var="pinterest" control_type="text">
+      <value/>
+      <name locale="en_US">Pinterest page URL</name>
+      <name locale="ru_RU">Адрес страницы в Pinterest</name>
+    </setting>
+    <setting var="gplus" control_type="text">
+      <value/>
+      <name locale="en_US">Google+ URL</name>
+      <name locale="ru_RU">Адрес страницы в Google+</name>
+    </setting>
+  </settings>
+  <locales>
+    <locale>
+      <msgid>Follow us</msgid>
+      <msgstr locale="ru_RU">Подписаться на новости</msgstr>
+    </locale>
+    <locale>
+      <msgid>Subscribe to our email newsletter</msgid>
+      <msgstr locale="ru_RU">Подписаться на рассылку</msgstr>
+    </locale>
+    <locale>
+      <msgid>Or follow us on Facebook and Twitter</msgid>
+      <msgstr locale="ru_RU">Или подписывайтесь в соцсетях</msgstr>
+    </locale>
+  </locales>
+</theme>
