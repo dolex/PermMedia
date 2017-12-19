@@ -1,6 +1,0 @@
-{$url = $wa->getUrl('/frontend/myProfile')}
-{if $my_app == $wa->app()}
-    <li class="site {if $my_nav_selected == 'profile' || $wa->currentUrl(false) == $url}selected{/if}">
-        <a href="{$wa->getUrl('/frontend/myProfile')}">[s`My profile`]</a>
-    </li>
-{/if}
