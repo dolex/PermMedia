@@ -1,0 +1,32 @@
+{if $theme_settings.newsId}
+    {if $theme_settings.numberOfLatestNews}
+        {$latest_posts = $wa->blog->posts({$theme_settings.newsId|escape},{$theme_settings.numberOfLatestNews|escape})}
+    {else}
+        {$latest_posts = $wa->blog->posts({$theme_settings.newsId|escape})}
+    {/if}
+    {if !empty($latest_posts)}
+        <aside>
+            <section class="news">
+                <h3 class="aside_wrapper">Новости компании</h3>
+                <div id="news_slider">
+                    <div class="news_wrapper">
+                        {foreach $latest_posts as $post}
+                        <article>
+                            <p class="date">{$post.datetime|wa_date}</p>
+                            <header><a href="{$post.link}"><h4>{$post.title}</h4></a></header>
+                            <p class="wordWrap">{$post.text|strip_tags}</p>
+                        </article>
+                        {/foreach}
+                    </div>
+                </div>
+                <a href="{$wa->blog->url()}" class="btn aside_wrapper">Все новости</a>
+                <button class="nextNews"></button>
+                <button class="prevNews"></button>
+            </section>
+        </aside>
+    {else}
+        {assign var="wholeWidth" value=true scope=parent}
+    {/if}
+{else}
+    {assign var="wholeWidth" value=true scope=parent}
+{/if}

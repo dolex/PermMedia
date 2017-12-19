@@ -1,0 +1,87 @@
+a {color:#1489b4;}
+#page > div.wa-form > form > div > div > a, #page > div.wa-auth-adapters > ul > li > a, .breadcrumbs a, .question_cat-item-title, .question_cat-item-title a, .question_item-text a, .nav-sidebar > ul > li > a, .page-content table.table a, #page-content > h1, .forSupport a {
+    color: #1489b4 !important;
+}
+
+.phone p:first-child span, .desc p, main > .main h3, main > aside h3 {
+    color: black;
+}
+
+nav, .topmenu > ul > li > ul > li:hover, .desc a, main > .main a.btn, .news a.btn, .topmenu > ul, input[type=button], input[type=submit] {
+    background-color: #ec8e05 !important;
+}
+
+    .topmenu > ul > li:hover > a, .topmenu > ul > li.active > a, .topmenu > ul > li > ul {
+        background: #fcb54e !important;
+    }
+
+input[type=button], input[type=submit] {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec8e05', endColorstr='#ec8e05',GradientType=0 ); /* IE6-9 */
+}
+
+.hasUl {
+    background: url(../img/themes/orange/arr_down.png) no-repeat center !important;
+}
+
+
+#top_slider .quote p:first-child::before {
+    background: url(../img/themes/orange/raquo_l.png) no-repeat left center;
+}
+
+#top_slider .quote p:first-child::after {
+    background: url(../img/themes/orange/raquo_r.png) no-repeat left center;
+}
+
+.activities > div {
+    background-color: #fff;
+}
+
+main h1.title, main.forBlog a, ul.submenu > a, ul.submenu li a, ul.albums li a {
+    color: #000;
+}
+
+.news h4 {
+    color: #1489b4;
+}
+
+footer {
+    background-color: #5e5e5e;
+}
+
+@media all and (max-width: 1000px) {
+    .topmenu > ul > li > a {
+        border-color: #e18807 !important;
+    }
+
+    .topmenu > ul > li > ul > li {
+        border-color: #f0ad4b !important;
+    }
+
+    .hasUl {
+        background: url(../img/themes/orange/arr.png) no-repeat #fcb54e center !important;
+    }
+
+    .mob_addr {
+        background: url(../img/icons/mob_addr.png) no-repeat center center;
+    }
+
+        .mob_addr.hover {
+            background: url(../img/themes/orange/mob_addr2.png) #fff no-repeat center center !important;
+        }
+
+    .mob_phone {
+        background: url(../img/icons/mob_tel.png) no-repeat center center;
+    }
+
+        .mob_phone.hover {
+            background: url(../img/themes/orange/mob_tel2.png) #fff no-repeat center center !important;
+        }
+
+    .mob_email {
+        background: url(../img/icons/mob_email.png) no-repeat center center;
+    }
+
+        .mob_email.hover {
+            background: url(../img/themes/orange/mob_email2.png) #fff no-repeat center center !important;
+        }
+}

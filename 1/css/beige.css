@@ -1,0 +1,102 @@
+a {color:#1489b4;}
+#page > div.wa-form > form > div > div > a, #page > div.wa-auth-adapters > ul > li > a, .breadcrumbs a, .question_cat-item-title, .question_cat-item-title a, .question_item-text a {
+    color:#1489b4 !important;
+}
+
+.phone p:first-child span {
+    color: #100a01;
+}
+
+.topmenu > ul > li > a {
+    color: #f8f9f9;
+}
+
+main h1.title, main > aside h3 {
+    color: black;
+}
+
+nav, .topmenu > ul > li > ul > li:hover, .topmenu > ul, .activities > div {
+    background-color: #cfc5a2 !important;
+}
+
+    .topmenu > ul > li:hover > a, .topmenu > ul > li.active > a, .topmenu > ul > li > ul {
+        background: #bcb28d !important;
+    }
+
+.hasUl {
+    background: url(../img/themes/beige/arr_down.png) no-repeat center !important;
+}
+
+
+#top_slider .quote p:first-child::before {
+    background: url(../img/themes/beige/raquo_l.png) no-repeat left center;
+}
+
+#top_slider .quote p:first-child::after {
+    background: url(../img/themes/beige/raquo_r.png) no-repeat left center;
+}
+
+main > .main a.btn, .news a.btn, input[type=button], input[type=submit] {
+    background-color: #bcb28d !important;
+}
+input[type=button], input[type=submit] {
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bcb28d', endColorstr='#bcb28d',GradientType=0 ); /* IE6-9 */
+}
+
+.desc p {
+    color: #f8f9f9;
+}
+
+.desc a {
+    background: #bcb28d !important;
+}
+
+main > .main div.article h3, main.forBlog a, ul.submenu > a, ul.submenu li a, ul.albums li a {
+    color:#000;
+}
+
+.news h4 {
+    color: #1489b4;
+}
+
+footer {
+    background-color: #bcb28d !important;
+}
+
+@media all and (max-width: 1000px) {
+    .topmenu > ul > li > a {
+        border-color: #e0d5ae !important;
+    }
+
+    .topmenu > ul > li > ul > li {
+        border-color: #ccc198 !important;
+    }
+
+    .hasUl {
+        background: url(../img/themes/beige/arr.png) no-repeat #bcb28d center !important;
+    }
+
+    .mob_addr {
+        background: url(../img/icons/mob_addr.png) no-repeat center center;
+    }
+
+        .mob_addr.hover {
+            background: url(../img/themes/beige/mob_addr2.png) #fff no-repeat center center !important;
+        }
+
+    .mob_phone {
+        background: url(../img/icons/mob_tel.png) no-repeat center center;
+    }
+
+        .mob_phone.hover {
+            background: url(../img/themes/beige/mob_tel2.png) #fff no-repeat center center !important;
+        }
+
+    .mob_email {
+        background: url(../img/icons/mob_email.png) no-repeat center center;
+    }
+
+        .mob_email.hover {
+            background: url(../img/themes/beige/mob_email2.png) #fff no-repeat center center !important;
+        }
+}
