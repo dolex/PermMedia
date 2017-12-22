@@ -41,6 +41,59 @@ html, body {
     margin-right: auto;
 }
 
+.header-flex{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px !important;
+    border-top: 7px solid rgb(190, 190, 190);
+    background: rgb(243, 243, 243);
+}.header-f-logo{
+    width: 33%;
+    text-align: center;
+}.header-f-logo img{
+    width: 70%;
+}.header-f-adress{
+    width: 33%;
+    color:#111;
+    font-size: 20px;
+    line-height: 30px;
+    border-right: 1px solid #d8d8d8;
+}.header-f-adress a{
+    color: rgb(0, 59, 187) !important;
+    font-size:17px;
+}.header-f-phone{
+    line-height: 30px;
+    width: 33%;
+    text-align: center;
+}.header-f-phone a{
+    color: rgb(37, 37, 37) !important;
+    font-size: 39px;
+    text-decoration: none;
+}
+.header-f-phone i{
+    padding-right: 10px;
+    font-size: 30px;
+}
+.fa-skype,.fa-skype a{
+    color: rgb(0, 141, 196) !important;
+    padding-left: 10px;
+}
+.zayavka-top-link a{
+    color: #1f1f1f !important;
+    font-size: 18px !important;
+    display: block;
+    width: 190px;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    background: #F8D300;
+}.zayavka-top-link a:hover{
+background: rgb(255, 220, 24);
+}
 .header5{
 		width:100%;
 		text-align:center;
@@ -49,6 +102,21 @@ html, body {
 		text-align: center;
 		width: 956px;
 		padding-bottom: 60px;
+}.main-page{
+    width: 80%;
+    margin: 0 auto;
+    /* border-left: 1px solid rgb(236, 181, 0) */
+}.price_index_page{
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow-x: scroll;
+}.price_index_page img{
+    width: 400px;
 }
 
 /* Sign up & Login forms
@@ -392,7 +460,7 @@ input[type=button],
 input[type=submit] {
     font-family: 'PT Sans', sans-serif;
     background: #265e79;
-    color: #fff !important;
+    color: rgb(0, 0, 0) !important;
     outline: 0;
     padding: 4px 7px;
     font-size: 1.1em;
@@ -1354,7 +1422,7 @@ a {
     color: #1c5a71;
 }
 body .layout_1 > header {
-    padding-top: 30px;
+    /* padding-top: 30px; */
     height: 100px;
     position: relative;
 }
@@ -1963,7 +2031,8 @@ main h1.title, .question_page h1 {
     font-weight: 400;
     margin-bottom: 28px;
     font-family: 'Noto Sans', sans-serif;  
-    line-height: 50px  
+    line-height: 50px;
+    border-bottom: 5px solid rgb(255, 232, 184);
 }
 
 main > .main div.article p, main > .main div.article blockquote, main > .main div.article table, main > .main div.article table th, main > .main div.article ul, main > .main div.article ol {
@@ -2026,6 +2095,7 @@ footer {
     footer .company_info {
         float: left;
         width:33%;
+        color: #fff !important;
     }
 
         footer .company_info a {
@@ -2035,6 +2105,9 @@ footer {
 
         footer .company_info > p {
             margin-bottom: 10px;
+        }
+        .company_info span{
+            color: white !important;
         }
 
     footer > .wrapper p a {
@@ -2068,7 +2141,7 @@ footer {
 
             footer .production a span {
                 display: inline-block;
-                color: #eb5e0d;
+                color: #ffffff;
                 border-bottom: 1px solid #eb5e0d;
             }
 
